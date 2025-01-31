@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: usuariosmocoreta
+spec: 
+  replicas: 5
+  selector:
+    matchLabels:
+      app: usuariosmocoreta
+  template:
+    metadata: 
+      labels: 
+        app: usuariosmocoreta
+    spec:
+      containers: 
+        - name: usuariosmocoreta
+          image: coderhouse70285/usuariosmocoreta:1.0.0
+          ports: 
+            - containerPort: 8080 
+          env: 
+            - name: MONGO_URL
+              value: "mongodb+srv://swtocaimaza:coderhouse@cluster0.pmzgicx.mongodb.net/jwt?retryWrites=true&w=majority&appName=Cluster0"
+          imagePullPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata: 
+  name: login-service
+spec: 
+  selector:
+    app: usuariosmocoreta
+  ports: 
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer
