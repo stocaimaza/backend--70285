@@ -1,0 +1,97 @@
+[
+    {
+        "first_name": "Carlos",
+        "last_name": "Gomez",
+        "email": "carlos.gomez@example.com",
+        "password": "password123",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Ana",
+        "last_name": "Lopez",
+        "email": "ana.lopez@example.com",
+        "password": "securePassword!",
+        "role": "user",
+        "pets": [
+            {
+                "_id": "63dfd06f8d4f8b5a85555b11"
+            }
+        ]
+    },
+    {
+        "first_name": "Luis",
+        "last_name": "Martinez",
+        "email": "luis.martinez@example.com",
+        "password": "myP@ssw0rd",
+        "role": "admin",
+        "pets": []
+    },
+    {
+        "first_name": "Marta",
+        "last_name": "Perez",
+        "email": "marta.perez@example.com",
+        "password": "password456",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Sofia",
+        "last_name": "Fernandez",
+        "email": "sofia.fernandez@example.com",
+        "password": "Sofia1234",
+        "role": "user",
+        "pets": [
+            {
+                "_id": "63dfd06f8d4f8b5a85555b12"
+            },
+            {
+                "_id": "63dfd06f8d4f8b5a85555b13"
+            }
+        ]
+    },
+    {
+        "first_name": "Juan",
+        "last_name": "Garcia",
+        "email": "juan.garcia@example.com",
+        "password": "Jg2025Secure",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Laura",
+        "last_name": "Rodriguez",
+        "email": "laura.rodriguez@example.com",
+        "password": "Password123!",
+        "role": "user",
+        "pets": [
+            {
+                "_id": "63dfd06f8d4f8b5a85555b14"
+            }
+        ]
+    },
+    {
+        "first_name": "Pedro",
+        "last_name": "Hernandez",
+        "email": "pedro.hernandez@example.com",
+        "password": "p3dr0Secure",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "Elena",
+        "last_name": "Sanchez",
+        "email": "elena.sanchez@example.com",
+        "password": "Elena2025!",
+        "role": "user",
+        "pets": []
+    },
+    {
+        "first_name": "David",
+        "last_name": "Martín",
+        "email": "david.martin@example.com",
+        "password": "D@vid2025",
+        "role": "admin",
+        "pets": []
+    }
+]
